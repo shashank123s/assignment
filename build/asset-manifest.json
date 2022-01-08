@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55f10cc4.css",
+    "main.js": "/static/js/main.8bb6ba5f.js",
+    "static/js/787.5fba2531.chunk.js": "/static/js/787.5fba2531.chunk.js",
+    "static/media/Call.jpg": "/static/media/Call.c2961a89b77d10f21a93.jpg",
+    "static/media/Headimg.jpg": "/static/media/Headimg.8d4bfb509b4fdf33f639.jpg",
+    "static/media/logo.png": "/static/media/logo.619de7c59926d06f249a.png",
+    "static/media/Email.png": "/static/media/Email.20aae886aba6dda24c2e.png",
+    "static/media/Sample.jpg": "/static/media/Sample.eedaaeda256b5ecec5b5.jpg",
+    "index.html": "/index.html",
+    "main.55f10cc4.css.map": "/static/css/main.55f10cc4.css.map",
+    "main.8bb6ba5f.js.map": "/static/js/main.8bb6ba5f.js.map",
+    "787.5fba2531.chunk.js.map": "/static/js/787.5fba2531.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55f10cc4.css",
+    "static/js/main.8bb6ba5f.js"
+  ]
+}
