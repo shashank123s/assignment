@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from './logo.png';
+import logo from './Logo.png';
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <>
        <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <Link className="navbar-brand ml-5 px-5" to="/"><img src={logo} style={{width:"250px", height:"30px"}} alt="Assignment"></img></Link>
+                    <Link className="navbar-brand ml-5 px-5" to="/"><img src={logo} style={{width:"250px", height:"30px"}} alt="Assignment logo"></img>{props.title}</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -38,3 +38,7 @@ export default function Navbar() {
         </>
     )
 }
+
+Navbar.defaultProps = {
+    title: 'Set title here'
+  };

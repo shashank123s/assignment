@@ -16,7 +16,7 @@ export default function App() {
     <BrowserRouter>
     <div className= "app-container">
       <Topnav />
-      <Navbar />
+      <Navbar title="ByteQuest"/>
       <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route path= '/about' element={<About/>} />
