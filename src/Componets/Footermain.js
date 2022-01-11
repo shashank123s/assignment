@@ -40,7 +40,7 @@ export default function Footermain() {
                         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                             <h5 className="text-uppercase mb-4 font-weight-bold ">Contact us</h5>
                             <p>
-                                <Link to="/" >+91 97119997, +91 833-880-3355</Link> 
+                                <Link to="/" >+91 00000000, +91 000-000-0000</Link> 
                             </p>
                             <p>
                                 <Link to="/" >loremipsum@gmail.com</Link> 
@@ -55,7 +55,7 @@ export default function Footermain() {
                     <div className="row align-items-center">
                         <div className="col-md-7 col-lg-8">
                             <p>Copyright &#9400;2020 All right reserved: <Link to="/" >
-                                <strong>The providers</strong></Link> </p>
+                                <strong>  The providers</strong></Link> </p>
                         </div>                       
                     </div>
                 </div>

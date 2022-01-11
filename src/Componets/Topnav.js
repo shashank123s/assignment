@@ -26,6 +26,6 @@ Topnav.propTypes = {
     phone: PropTypes.string.isRequired,
 }
 Topnav.defaultProps = {
-    email: 'info@byequest.com',
-    phone: '+91 97119997, +91 833-880-3355',
+    email: 'info@abcdefgh.com',
+    phone: '+91 9700000000, +91 000-000-0000',
   };
